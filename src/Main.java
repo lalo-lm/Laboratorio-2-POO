@@ -300,7 +300,7 @@ public class Main {
         System.out.println("\n========= SPACE MISSION REPORT =========");
         System.out.println("Ship: " + ship.getShipName() + " (ID: " + ship.getID() + ") | Commander: " + ship.getCommander());
         System.out.println("Installed modules: " + ship.getInstalledModulesCount());
-        System.out.println("Available module spaces: " + ship.getAvailableSpacesCount());
+        System.out.println("Available module spaces: " + ship.getAvailableModulesCount());
 
         Module maxEnergyMod = ship.getModuleWithHighestEnergyUse();
         if (maxEnergyMod != null) {
